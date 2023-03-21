@@ -48,21 +48,32 @@ main {
 }
 
                                 /*** Text container stylesheet ***/
+
 .card-text {
     margin-top: 60px;
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
 }
+hr {
+    width: 375px;
+    border: hsl(0, 0%, 59%) solid 1px;
+}
+.place {
+    margin-bottom: 30px;
+}
 .about {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    
 }
 .follower, .likes, .photos {
-    padding: 30px;
+    padding: 10px 30px 30px 20px;
 }
 span, p{
     color: hsl(0, 0%, 59%);
+}
+.about p {
+    font-size: 13px;
 }
 h1, h2{
     color: hsl(229, 23%, 23%);
