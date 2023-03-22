@@ -7,10 +7,9 @@ html {
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-    background-color: hsla(185, 100%, 50%, 0.308);
+    background-color: #19a2ae;
     background-position: 
     bottom 50vh right 50vw,
     top 50vh left 50vw;
@@ -23,7 +22,6 @@ main {
 
 .card-container {
     width: 375px;
-    height: auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     position: relative;
@@ -56,7 +54,9 @@ main {
 }
 hr {
     width: 375px;
-    border: hsl(0, 0%, 59%) solid 1px;
+    border: none;
+    height: 0.3px;
+    background-color: hsl(0, 0%, 59%);
 }
 .place {
     margin-bottom: 30px;
@@ -67,7 +67,7 @@ hr {
     
 }
 .follower, .likes, .photos {
-    padding: 10px 30px 30px 20px;
+    padding: 10px 30px 30px 30px;
 }
 span, p{
     color: hsl(0, 0%, 59%);
